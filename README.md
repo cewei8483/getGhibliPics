@@ -7,5 +7,8 @@ This is a simple bat file that gets pictures released by Ghibli, and this is for
 3. Just run the bat file and it will start downloading
 
 ## Descriptions
-The variable "animeList" is the list of anime whose pictures you want to download
-You can just change the names on the list to download other anime pictures if Ghibli releases more in the future.
+If Ghibli releases more pics in the future, just modify the names on the variable "animeList" to download them by adding the corresponding anime names.
+
+The anime name is represented by the red rectangular part below, in this example, karigurashi.
+
+![Example](https://github.com/cewei8483/getGhibliPics/blob/master/animeListNameExample.png)
