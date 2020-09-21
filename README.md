@@ -12,3 +12,5 @@ If Ghibli releases more pics in the future, just modify the names on the variabl
 The anime name is represented by the red rectangular part below, in this example, karigurashi.
 
 ![Example](https://github.com/cewei8483/getGhibliPics/blob/master/animeListNameExample.png)
+
+P.S. I set the -nc flag to wget, which means wget will not download the file if there is already one with the same name.
