@@ -18,7 +18,7 @@ for %%i in (%animeList%) do (
 	for /L %%j in (1, 1, %count%) do (
 		set formattedValue=000000%%j
 		::@echo "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg"
-		wget "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg"
+		wget -nc "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg"
 	)
 	cd ..
 )
