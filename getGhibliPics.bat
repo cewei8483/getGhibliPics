@@ -3,9 +3,14 @@ setlocal EnableDelayedExpansion
 setlocal enableextensions
 
 set count=50
-set animeList=chihiro,kokurikozaka,kazetachinu,ponyo
+set animeList=marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro
 
-::http://www.ghibli.jp/gallery/chihiro001.jpg
+::currently released (20200921): marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro
+
+::all anime names: red-turtle,marnie,kaguyahime,kazetachinu,kokurikozaka,karigurashi,ponyo,ged,howl,nekonoongaeshi,ghiblies,chihiro,tonarinoyamadakun,mononokehime,mimiosumaseba,pompoko,umigakikoeru,kurenainobuta,omohideporoporo,majonotakkyubin,totoro,hotarunohaka,laputa,nausica
+
+::example pic URL: http://www.ghibli.jp/gallery/chihiro001.jpg
+
 for %%i in (%animeList%) do (
 	echo %%i
 	mkdir %%i
