@@ -24,17 +24,15 @@ IF EXIST wget.exe (
 ::echo %state%
 
 for %%i in (%animeList%) do (
-	echo %%i
 	mkdir %%i
 	cd %%i
 	for /L %%j in (1, 1, %count%) do (
 		set formattedValue=000000%%j
 		IF %state%==1 (
 			%cd%/wget.exe -nc "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg
-		) ELSE (
-			IF %state%==2 (
-				wget -nc "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg
-			)
+		) 
+		IF %state%==2 (
+			wget -nc "http://www.ghibli.jp/gallery/%%i!formattedValue:~-3!.jpg
 		)
 	)
 	cd ..
