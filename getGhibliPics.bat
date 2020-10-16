@@ -3,11 +3,10 @@ setlocal EnableDelayedExpansion
 setlocal enableextensions
 
 set count=50
-set animeList=marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro
+set animeList=marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro,howl,baron,ghiblies,yamada,mononoke,mimi
 
-::currently released (20200921): marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro
-
-::all anime names: red-turtle,marnie,kaguyahime,kazetachinu,kokurikozaka,karigurashi,ponyo,ged,howl,nekonoongaeshi,ghiblies,chihiro,tonarinoyamadakun,mononokehime,mimiosumaseba,pompoko,umigakikoeru,kurenainobuta,omohideporoporo,majonotakkyubin,totoro,hotarunohaka,laputa,nausica
+::released (20200921): marnie,kaguyahime,ged,kazetachinu,kokurikozaka,karigurashi,ponyo,chihiro
+::released (20201016): howl,baron,ghiblies,yamada,mononoke,mimi
 
 ::example pic URL: http://www.ghibli.jp/gallery/chihiro001.jpg
 
